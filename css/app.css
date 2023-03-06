@@ -307,7 +307,7 @@
 	.search__submit {
 		-ms-flex-item-align: start;
 		align-self: flex-start;
-		padding: 28px 72px;
+		padding: 18px 72px;
 		width: auto;
 	}
 	.images__items {
@@ -329,6 +329,9 @@
 	.search__textarea {
 		padding: 28px 48px 28px 32px;
 		max-height: 176px;
+	}
+	.search__submit {
+		padding: 28px 72px;
 	}
 }
 @media (any-hover: hover) {
