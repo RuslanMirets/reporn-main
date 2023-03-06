@@ -213,12 +213,12 @@
 	-webkit-column-break-inside: avoid;
 	-moz-column-break-inside: avoid;
 	break-inside: avoid;
-	overflow: hidden;
-	margin-bottom: 8px;
 	border-radius: 8px;
+	padding-bottom: 8px;
 }
 .images__item img {
-	height: auto;
+	border-radius: 8px;
+	height: calc(100% - 8px);
 }
 @media (min-width: 576px) {
 	.images__items {
@@ -318,8 +318,11 @@
 		-moz-column-gap: 12px;
 		column-gap: 12px;
 	}
+	.images__item img {
+		height: calc(100% - 12px);
+	}
 	.images__item {
-		margin-bottom: 12px;
+		padding-bottom: 12px;
 	}
 }
 @media (min-width: 1600px) {
