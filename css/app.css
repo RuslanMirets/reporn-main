@@ -293,10 +293,6 @@
 	.search__title {
 		margin: 88px 0 56px;
 	}
-	.search__textarea {
-		padding: 28px 48px 28px 32px;
-		max-height: 176px;
-	}
 	.search__submit img {
 		display: none;
 	}
@@ -324,6 +320,12 @@
 	}
 	.images__item {
 		margin-bottom: 12px;
+	}
+}
+@media (min-width: 1600px) {
+	.search__textarea {
+		padding: 28px 48px 28px 32px;
+		max-height: 176px;
 	}
 }
 @media (any-hover: hover) {
